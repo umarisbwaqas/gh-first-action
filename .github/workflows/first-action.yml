@@ -9,3 +9,7 @@ jobs:
         run: echo "Hellow World"
       - name: print good bye
         run: echo "Good bye"
+      - name: multi line
+        run: |
+          echo "First line"
+          echo "second line"
