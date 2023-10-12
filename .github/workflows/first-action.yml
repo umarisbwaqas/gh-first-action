@@ -1,0 +1,11 @@
+
+name: first workflow #Name of work flow
+on: workflow_dispatch #When this workflow should be execueted, event. mean manual trigger
+jobs:
+  first-job:
+    runs-on: ubuntu-latest #Runner for workflow
+    steps: 
+      - name: print greeting
+        run: echo "Hellow World"
+      - name: print good bye
+        run: "Good bye"
